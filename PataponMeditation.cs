@@ -11,7 +11,7 @@ using System.Collections;
 using UnityEngine.UI;
 using RiskOfOptions;
 
-namespace RiskOfPata
+namespace PataponMeditation
 {
     [BepInPlugin(P_GUID, P_Name, P_Version)]
 
@@ -20,7 +20,7 @@ namespace RiskOfPata
     [NetworkCompatibility(CompatibilityLevel.NoNeedForSync)]
 
     // Main Plugin Class
-    public class RiskOfPata : BaseUnityPlugin
+    public class PataponMeditation : BaseUnityPlugin
     {
         // Plugin metadata and version
         public const string P_GUID = $"{P_Author}.{P_Name}";
@@ -47,12 +47,12 @@ namespace RiskOfPata
             DebugLog.Init(Logger);
 
             // Load the asset bundle for this mod.
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("RiskOfPata.patassets"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("PataponMeditation.patassets"))
             {
                 MainAssets = AssetBundle.LoadFromStream(stream);
             }
 
-            EnablePerfectBeatBonusDamage = Config.Bind("Bonus Damage on Perfect Beat", "EnablePerfectBeatDamage", false, "Toggle for a +50% base damage buff for the meditate explosion when the meditate sequence is completed with all inputs being perfect beats");
+            EnablePerfectBeatBonusDamage = Config.Bind("Bonus Damage on Perfect Beat", "EnablePerfectBeatDamage", false, "Toggle to increase Meditate's AOE base damage by +50% if every input was a perfect beat.");
 
             // Check for Risk of Options, if present setup the Risk of Options configs for this mod.
             if (RiskOfOptionsCompatibility.enabled)
