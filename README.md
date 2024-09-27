@@ -2,15 +2,15 @@
 
 Alters Seeker's Meditate quick-time-event minigame to be Patapon-themed. It does not change the overall functionality of the Meditate skill.
 
-This mod includes:
+This mod also includes:
 - Perfect beat mechanic (Pressing each input around 0.5 seconds after the previous is considered a "perfect" input).
 - Optional damage increase for the meditation explosion if all inputs were perfect. (Can be toggled from the config file or with Risk of Options), disabled by default.
 - Drum sounds, including perfect inputs and mistimed inputs, and animated visuals.
+- Semi-random input sequences featuring Patapon command sequences. (The last four inputs are always a random command).
 
 <br>
 
-![ModExampleGif](https://github.com/The-Liam-Blair/Risk-of-Rain-2-Patapon-Meditation/blob/main/Images/ExampleLarge.gif)
-![ModExampleGif2](https://github.com/The-Liam-Blair/Risk-of-Rain-2-Patapon-Meditation/blob/main/Images/ExampleSmall.gif)
+![ModExampleGif](https://raw.githubusercontent.com/The-Liam-Blair/Risk-of-Rain-2-Patapon-Meditate/refs/heads/main/Images/ExampleUsage.gif)
 
 <br>
 
