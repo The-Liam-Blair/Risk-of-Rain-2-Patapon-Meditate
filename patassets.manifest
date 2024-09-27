@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1739328956
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 82ded3e4de29434c28fdc5329f15b64e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f98c7bdb74dd487f54cac0f4547117d5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Materials/WormFaceC5.png
+- Assets/Materials/WormFaceC2.png
+- Assets/Materials/Pon.png
+- Assets/Materials/Don.png
+- Assets/Materials/WormFaceC3.png
+- Assets/Materials/WormFace.png
+- Assets/Materials/Pata.png
+- Assets/Materials/WormFaceC4.png
+- Assets/Materials/Worm.png
+- Assets/Prefabs/WormFace.prefab
+- Assets/Materials/Chaka.png
+- Assets/Materials/Worm2.png
+Dependencies: []
