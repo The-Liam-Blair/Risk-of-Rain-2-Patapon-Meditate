@@ -11,7 +11,7 @@ using System.Collections;
 using UnityEngine.UI;
 using RiskOfOptions;
 
-namespace PataponMeditation
+namespace PataponMeditate
 {
     [BepInPlugin(P_GUID, P_Name, P_Version)]
 
@@ -20,12 +20,12 @@ namespace PataponMeditation
     [NetworkCompatibility(CompatibilityLevel.NoNeedForSync)]
 
     // Main Plugin Class
-    public class PataponMeditation : BaseUnityPlugin
+    public class PataponMeditate : BaseUnityPlugin
     {
         // Plugin metadata and version
         public const string P_GUID = $"{P_Author}.{P_Name}";
         public const string P_Author = "RigsInRags";
-        public const string P_Name = "PataponMeditation";
+        public const string P_Name = "PataponMeditate";
         public const string P_Version = "1.0.0";
 
         public static AssetBundle MainAssets;
@@ -47,7 +47,7 @@ namespace PataponMeditation
             DebugLog.Init(Logger);
 
             // Load the asset bundle for this mod.
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("PataponMeditation.patassets"))
+            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("PataponMeditate.patassets"))
             {
                 MainAssets = AssetBundle.LoadFromStream(stream);
             }
