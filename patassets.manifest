@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1739328956
+CRC: 2485895751
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 82ded3e4de29434c28fdc5329f15b64e
+    Hash: 0330879aff9471d342ce74948a0e38f4
   TypeTreeHash:
     serializedVersion: 2
     Hash: f98c7bdb74dd487f54cac0f4547117d5
@@ -33,6 +33,7 @@ Assets:
 - Assets/Materials/WormFace.png
 - Assets/Materials/Pata.png
 - Assets/Materials/WormFaceC4.png
+- Assets/Materials/modIcon.png
 - Assets/Materials/Worm.png
 - Assets/Prefabs/WormFace.prefab
 - Assets/Materials/Chaka.png

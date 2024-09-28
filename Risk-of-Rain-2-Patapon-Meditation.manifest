@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3466596527
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: patassets
+      Dependencies: {}

@@ -18,10 +18,8 @@ namespace PataponMeditate
         [MethodImpl(MethodImplOptions.NoInlining | MethodImplOptions.NoOptimization)]
         public static void SetupRiskOfOptionsConfigs()
         {
-            ModSettingsManager.SetModDescription("Adds a Patapon-themed skin to the Seeker's Meditate skill.", PataponMeditate.P_GUID, "Patapon Meditate");
+            ModSettingsManager.SetModDescription("Visually and audibly adjusts Seeker's Meditate skill to be Patapon-themed.", PataponMeditate.P_GUID, "Patapon Meditate");
 
-            // todo: mod icon
-            //int x 
             ModSettingsManager.SetModIcon(PataponMeditate.MainAssets.LoadAsset<Sprite>("modIcon.png"));
 
             ModSettingsManager.AddOption(new CheckBoxOption(PataponMeditate.EnablePerfectBeatBonusDamage));
